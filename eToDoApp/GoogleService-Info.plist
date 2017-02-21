@@ -19,9 +19,9 @@
 	<key>BUNDLE_ID</key>
 	<string>com.joseapablaza.eToDoApp</string>
 	<key>PROJECT_ID</key>
-	<string>maptracker-91ea1</string>
+	<string>eToDoApp</string>
 	<key>STORAGE_BUCKET</key>
-	<string>maptracker-91ea1.appspot.com</string>
+	<string>eToDoApp.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -35,6 +35,6 @@
 	<key>GOOGLE_APP_ID</key>
 	<string>1:163940959099:ios:d4973c57da7ee11b</string>
 	<key>DATABASE_URL</key>
-	<string>https://maptracker-91ea1.firebaseio.com</string>
+	<string>https://etodoapp.firebaseio.com/</string>
 </dict>
 </plist>

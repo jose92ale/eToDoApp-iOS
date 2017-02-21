@@ -7,4 +7,7 @@ target 'eToDoApp' do
 
   # Pods for eToDoApp
 
+	pod ‘Firebase/Core’
+	pod ‘Firebase/Database’
+
 end

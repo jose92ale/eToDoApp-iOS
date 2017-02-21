@@ -8,19 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		EDCEA1B89AEF22C348E352F6 /* Pods_eToDoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F60EBEDD7E07ADC5F818282 /* Pods_eToDoApp.framework */; };
+		FB5D99F81E5CC48800FA5776 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB5D99F71E5CC48800FA5776 /* GoogleService-Info.plist */; };
 		FBDDA3771E5939D000979506 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDDA3761E5939D000979506 /* AppDelegate.swift */; };
 		FBDDA3791E5939D000979506 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDDA3781E5939D000979506 /* FirstViewController.swift */; };
 		FBDDA37B1E5939D000979506 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDDA37A1E5939D000979506 /* SecondViewController.swift */; };
 		FBDDA37E1E5939D000979506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBDDA37C1E5939D000979506 /* Main.storyboard */; };
 		FBDDA3801E5939D000979506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBDDA37F1E5939D000979506 /* Assets.xcassets */; };
 		FBDDA3831E5939D000979506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBDDA3811E5939D000979506 /* LaunchScreen.storyboard */; };
-		FBDDA38B1E5BD87000979506 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBDDA38A1E5BD87000979506 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F60EBEDD7E07ADC5F818282 /* Pods_eToDoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eToDoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		359A73238C2505415EA8B304 /* Pods-eToDoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eToDoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-eToDoApp/Pods-eToDoApp.release.xcconfig"; sourceTree = "<group>"; };
 		884E22E691889F79C61651DC /* Pods-eToDoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eToDoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eToDoApp/Pods-eToDoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FB5D99F71E5CC48800FA5776 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FBDDA3731E5939D000979506 /* eToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBDDA3761E5939D000979506 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBDDA3781E5939D000979506 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		FBDDA37F1E5939D000979506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBDDA3821E5939D000979506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBDDA3841E5939D000979506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBDDA38A1E5BD87000979506 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +82,7 @@
 		FBDDA3751E5939D000979506 /* eToDoApp */ = {
 			isa = PBXGroup;
 			children = (
+				FB5D99F71E5CC48800FA5776 /* GoogleService-Info.plist */,
 				FBDDA3761E5939D000979506 /* AppDelegate.swift */,
 				FBDDA3781E5939D000979506 /* FirstViewController.swift */,
 				FBDDA37A1E5939D000979506 /* SecondViewController.swift */,
@@ -89,7 +90,6 @@
 				FBDDA37F1E5939D000979506 /* Assets.xcassets */,
 				FBDDA3811E5939D000979506 /* LaunchScreen.storyboard */,
 				FBDDA3841E5939D000979506 /* Info.plist */,
-				FBDDA38A1E5BD87000979506 /* GoogleService-Info.plist */,
 			);
 			path = eToDoApp;
 			sourceTree = "<group>";
@@ -158,7 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBDDA3831E5939D000979506 /* LaunchScreen.storyboard in Resources */,
-				FBDDA38B1E5BD87000979506 /* GoogleService-Info.plist in Resources */,
+				FB5D99F81E5CC48800FA5776 /* GoogleService-Info.plist in Resources */,
 				FBDDA3801E5939D000979506 /* Assets.xcassets in Resources */,
 				FBDDA37E1E5939D000979506 /* Main.storyboard in Resources */,
 			);
@@ -387,6 +387,7 @@
 				FBDDA3891E5939D000979506 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

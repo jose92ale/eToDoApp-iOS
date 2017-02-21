@@ -7,21 +7,17 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
 
 class SecondViewController: UIViewController {
 
-    @IBOutlet weak var input: UITextField!
+    
+   
+    
+    //Setting up our table view:
     
     
-    @IBAction func addItem(_ sender: Any)
-    {
-        if(input.text != "")
-        {
-            list.append(input.text!)
-            input.text = ""
-        }
-        
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
