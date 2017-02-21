@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EDCEA1B89AEF22C348E352F6 /* Pods_eToDoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F60EBEDD7E07ADC5F818282 /* Pods_eToDoApp.framework */; };
 		FBDDA3771E5939D000979506 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDDA3761E5939D000979506 /* AppDelegate.swift */; };
 		FBDDA3791E5939D000979506 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDDA3781E5939D000979506 /* FirstViewController.swift */; };
 		FBDDA37B1E5939D000979506 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDDA37A1E5939D000979506 /* SecondViewController.swift */; };
 		FBDDA37E1E5939D000979506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBDDA37C1E5939D000979506 /* Main.storyboard */; };
 		FBDDA3801E5939D000979506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBDDA37F1E5939D000979506 /* Assets.xcassets */; };
 		FBDDA3831E5939D000979506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBDDA3811E5939D000979506 /* LaunchScreen.storyboard */; };
+		FBDDA38B1E5BD87000979506 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBDDA38A1E5BD87000979506 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F60EBEDD7E07ADC5F818282 /* Pods_eToDoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eToDoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		359A73238C2505415EA8B304 /* Pods-eToDoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eToDoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-eToDoApp/Pods-eToDoApp.release.xcconfig"; sourceTree = "<group>"; };
+		884E22E691889F79C61651DC /* Pods-eToDoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eToDoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eToDoApp/Pods-eToDoApp.debug.xcconfig"; sourceTree = "<group>"; };
 		FBDDA3731E5939D000979506 /* eToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBDDA3761E5939D000979506 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBDDA3781E5939D000979506 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		FBDDA37F1E5939D000979506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBDDA3821E5939D000979506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBDDA3841E5939D000979506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBDDA38A1E5BD87000979506 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDCEA1B89AEF22C348E352F6 /* Pods_eToDoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1214898DCD0C0CB52FB9B803 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				884E22E691889F79C61651DC /* Pods-eToDoApp.debug.xcconfig */,
+				359A73238C2505415EA8B304 /* Pods-eToDoApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5BB23C7462EDD134CB31B06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F60EBEDD7E07ADC5F818282 /* Pods_eToDoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FBDDA36A1E5939CF00979506 = {
 			isa = PBXGroup;
 			children = (
 				FBDDA3751E5939D000979506 /* eToDoApp */,
 				FBDDA3741E5939D000979506 /* Products */,
+				1214898DCD0C0CB52FB9B803 /* Pods */,
+				A5BB23C7462EDD134CB31B06 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +89,7 @@
 				FBDDA37F1E5939D000979506 /* Assets.xcassets */,
 				FBDDA3811E5939D000979506 /* LaunchScreen.storyboard */,
 				FBDDA3841E5939D000979506 /* Info.plist */,
+				FBDDA38A1E5BD87000979506 /* GoogleService-Info.plist */,
 			);
 			path = eToDoApp;
 			sourceTree = "<group>";
@@ -74,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBDDA3871E5939D000979506 /* Build configuration list for PBXNativeTarget "eToDoApp" */;
 			buildPhases = (
+				0DAD4A0ECB65DC34C0896429 /* [CP] Check Pods Manifest.lock */,
 				FBDDA36F1E5939D000979506 /* Sources */,
 				FBDDA3701E5939D000979506 /* Frameworks */,
 				FBDDA3711E5939D000979506 /* Resources */,
+				29E3410934F5683222A48071 /* [CP] Embed Pods Frameworks */,
+				7D2F1000F54A5328D968DE1B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,12 +158,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBDDA3831E5939D000979506 /* LaunchScreen.storyboard in Resources */,
+				FBDDA38B1E5BD87000979506 /* GoogleService-Info.plist in Resources */,
 				FBDDA3801E5939D000979506 /* Assets.xcassets in Resources */,
 				FBDDA37E1E5939D000979506 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DAD4A0ECB65DC34C0896429 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		29E3410934F5683222A48071 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eToDoApp/Pods-eToDoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D2F1000F54A5328D968DE1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eToDoApp/Pods-eToDoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FBDDA36F1E5939D000979506 /* Sources */ = {
@@ -263,6 +342,7 @@
 		};
 		FBDDA3881E5939D000979506 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 884E22E691889F79C61651DC /* Pods-eToDoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2BULHRS882;
@@ -276,6 +356,7 @@
 		};
 		FBDDA3891E5939D000979506 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 359A73238C2505415EA8B304 /* Pods-eToDoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2BULHRS882;
